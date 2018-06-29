@@ -1,4 +1,19 @@
 #include <stdio.h>
+#include <string.h>
+
+int call(){
+
+	char an[5];
+	printf("Vos queres que alda sea un puto o un gay?");
+	scanf("%s",an);	
+	if (an == "un gay"){
+		
+		printf("entonces un gay sera!");
+	}
+	
+	return 0;
+
+}
 
 float sum(float a, float b) {
 
@@ -100,9 +115,10 @@ int operations() {
 
 
 int main() {
-
+/*
 	operations();
-
+*/
+	call();
 
 	return 0;
 }
